@@ -9,8 +9,6 @@ gem 'pg'
 #gem 'sqlite3'
 #gem 'asset_sync', :path => '~/active/asset_sync'
 #gem 'asset_sync', '0.1.9'
-gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'master'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,6 +20,9 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'asset_sync', '0.2.12'
+  # gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'master'
+  # gem 'asset_sync', :path => '~/active/asset_sync'
 end
 
 gem 'jquery-rails'
