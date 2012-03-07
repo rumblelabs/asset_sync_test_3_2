@@ -20,8 +20,8 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'asset_sync', '0.2.12'
-  # gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'master'
+  #gem 'asset_sync', '0.2.12'
+  gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'master'
   # gem 'asset_sync', :path => '~/active/asset_sync'
 end
 
