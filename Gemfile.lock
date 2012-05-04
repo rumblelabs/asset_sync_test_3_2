@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 2535099a4ff6db54bd63747493de2ebad91cb2af
+  revision: 56ea0b47edd1f4366467570b1f224164f4f7d2dc
   branch: master
   specs:
-    asset_sync (0.3.2)
+    asset_sync (0.4.0)
       activemodel
       fog
 
@@ -73,7 +73,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.18)
-    multi_json (1.3.2)
+    multi_json (1.3.4)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
     net-ssh (2.3.0)
