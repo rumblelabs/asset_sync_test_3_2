@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.0'
+gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -21,8 +21,8 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   #gem 'asset_sync', '0.2.12'
-  gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'mime'
-  # gem 'asset_sync', :path => '~/active/asset_sync'
+  gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'static-gemspec'
+  #gem 'asset_sync', :path => '~/active/asset_sync'
 end
 
 gem 'jquery-rails'
